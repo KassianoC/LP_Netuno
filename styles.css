@@ -45,7 +45,6 @@ ul{
 }
 
 header nav ul {
-    
     display: flex;
     flex-direction: row;
     gap: 2em;
@@ -104,6 +103,14 @@ fieldset{
     gap: 1em;
     display: flex;
     flex-direction: column;
+}
+
+#fieldset1 h3{
+    color: #bbb;
+}
+
+#fieldset1 p{
+    color: #1A7FBD;
 }
 
 #fieldset1  h3,
