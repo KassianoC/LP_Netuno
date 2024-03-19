@@ -15,6 +15,7 @@ const addSmoothScroll = (links) => {
 
 addSmoothScroll(links);
 
-function clickMenu() {
-  nav.style.display = nav.style.display === 'none' ? 'flex' : 'none';
+function toggleNav() {
+  var nav = document.getElementById('nav');
+  nav.classList.toggle('nav-open');
 }

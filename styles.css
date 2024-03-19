@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
 }
 
+
 a {
     text-decoration: none;
     display: flex;
@@ -479,17 +480,6 @@ footer nav ul a:hover {
             justify-content: space-between;
         }
 
-        header nav{
-            background-color: black;
-            display: none;
-            position: fixed;
-            left: 0;
-            top: 0;
-            height: max-content;
-            width: 45vw;
-            border-bottom-right-radius: 5px;
-        }
-
         header nav ul {
             margin-left: 0;
             list-style: none;
@@ -508,6 +498,21 @@ footer nav ul a:hover {
             width: 95%;
     
         }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 90%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: #bbb;
+        transition: left 0.3s ease;
+    }
+
+    .nav-open {
+        left: 0;
+    }
 
         #section2 div,
         #oProblema div{

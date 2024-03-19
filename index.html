@@ -15,10 +15,9 @@
 
 <body>
     <header>
-      
-        <img  src="./Assets_Netuno/assets/logo.png" alt="logo netuno">
-        <nav id="nav">
-            <ul>
+        <img src="./Assets_Netuno/assets/logo.png" alt="logo netuno">
+        <nav id="nav" class="nav">
+            <ul onclick="toggleNav()">
                 <li> <a href="#section2">O Projeto</a> </li>
                 <li> <a href="#section3">O Problema</a> </li>
                 <li> <a href="#section4">Sua Jornada</a> </li>
@@ -27,9 +26,9 @@
         </nav>
         <a id="processoSeletivo" href="#section1">Processo Seletivo</a>
 
-        <span onclick="clickMenu()" id="iMenu" class="material-symbols-outlined">  menu </span>
-
+        <span onclick="toggleNav()" id="iMenu" class="material-symbols-outlined">menu</span>
     </header>
+
 
     <svg width="100%" height="1" viewBox="0 0 1284 1">
         <line y1="0.5" x2="1284" y2="0.5" stroke="url(#paint0_linear_1455_18)"></line>
