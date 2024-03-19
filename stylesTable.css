@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    #section1 {
+        padding: 1em;
+    }
+
+    #section1 img {
+        width: 50%;
+    }
+
+    #section1 form {
+        margin: 1em auto;
+        width: 50%;
+    }
+
+    #containerBox {
+        margin-top: 0em;
+    }
+
+    #section4 h2 img {
+        width: 5em;
+    }
+
+    footer {
+        padding: 4em;
+        gap: 1em;
+    }
+
+    #processoSeletivoFoot {
+        margin-right: 1em;
+        padding: 0.1em;
+        width: max-content;
+        text-align: center;
+    }
+
+    footer ul {
+        width: max-content;
+    }
+}
