@@ -6,6 +6,8 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #1A7FBD;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a {
@@ -27,8 +29,14 @@ header{
     padding: 1em;
 }
 
+
 header img{
     width: 10em ;
+}
+
+header nav ul a:hover {
+   color: black;
+   transition: 300ms;
 }
 
 header nav ul {
@@ -45,6 +53,10 @@ header a{
 fieldset{
     border: none;
     padding: 2em 1em;
+}
+
+#iMenu{
+    display: none;
 }
 
 #processoSeletivo{
@@ -341,7 +353,7 @@ fieldset{
     display: flex;
     margin-top: 5em;
     border-radius: 10px;
-    padding: 0.6em;
+    padding: 1em;
     background-color: black;
     justify-content: center;
     flex-direction: column;
@@ -353,6 +365,10 @@ fieldset{
     align-items: center;
     color: #fff;
     display: flex;
+}
+
+#divBtn img{
+   width: 1.5em;
 }
 
 #divBtn a{
@@ -438,6 +454,113 @@ footer nav ul a:hover {
     transition: 300ms;
 }
 
+@media (max-width: 768px) {
+    body{
+
+    }
+
+    header img {
+           
+        }
+
+        .banner{
+            display: none;
+        }
+
+        #processoSeletivo {
+            font-size: 0.8em;
+            padding: 0.3em;
+        }
+
+        header{
+            padding: 1em;
+            gap: 2em;
+            justify-content: flex-start;
+        }
+
+        header nav{
+            background-color: black;
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: max-content;
+            width: 45vw;
+            border-bottom-right-radius: 5px;
+        }
+
+        header nav ul {
+            margin-left: 0;
+            list-style: none;
+            flex-direction: column;
+            gap: 1em;
+            padding: 1em;
+        }
+
+        #iMenu{
+            display: block;
+        }
+
+        #section1 form {
+
+            margin: 1em auto;
+            width: 95%;
+    
+        }
+
+        #section2 div,
+        #oProblema div{
+            margin-top: 3em;
+            width: 95%;
+        }
+
+        #containerBox,
+        #containerBox2,
+        #containerBox3 {
+            margin-top: 2em;
+            flex-direction: column;
+        }
+
+        .box3{
+            margin: 0 auto;
+            width: 85%;
+        }
+
+        .box6 {
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        #divBtn{
+            gap: 0em;
+            font-size: 0.9em;
+        }
+
+        #section5 h2 {
+            padding: 1em;
+        }
+
+        footer{
+            flex-direction: column;
+            padding: 1em;
+            gap: 1em;
+        }
+
+        footer nav ul{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            border-right: none;
+        }
+
+        footer nav {
+            border-right: none;
+        }
+
+        #processoSeletivoFoot{
+            width: max-content;
+        }
+}
 
 
 
