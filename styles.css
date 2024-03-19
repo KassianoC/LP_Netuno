@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #1A7FBD;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+}
+
+input, select{
+    border: none;
+    outline: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding: 1em;
+}
+
+header img{
+    width: 10em ;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+header a{
+    color: white;
+}
+
+fieldset{
+    border: none;
+    padding: 2em 1em;
+}
+
+#processoSeletivo{
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#processoSeletivo:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+}
+
+#section1{
+    display: flex;
+}
+
+#section1 img{
+    width: 60%;
+}
+
+#section1 form{
+    margin-top: 4em;
+    width: 28%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#section1 form fieldset p{
+    font-size: 0.8em;
+}
+
+#fieldset1 {
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#fieldset1  h3,
+#fieldset1  p  {
+    margin-left: 1em;
+}
+
+
+#fieldset1 div{
+    border: solid 0.5px #bbb;   
+    display: flex;
+    gap: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#fieldset1 div img{
+    width: 1em;
+}
+
+#fieldset1 div select{
+    width: 100%;
+    color: #666666;
+}
+
+#fieldset2{
+    gap: 0.6em;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A7FBD;
+}
+
+#fieldset2 p{
+    color: white;
+}
+
+#fieldset2 div{
+    display: flex;
+    gap: 0.5em;
+}
+
+#fieldset2 label {
+    color: white;
+    font-size: 0.9em;
+}
+
+#fieldset3{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#fieldset3 div {
+    gap: 1em;
+    display: flex;
+}
+
+#fieldset3 p {
+    color: #1A7FBD;
+}
+
+#fieldset3 hr{
+    color: #bbb;
+}
+
+#fieldset3 h6{
+    color: #1A7FBD;
+    margin: auto;
+}
+
+#btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn input{
+    width: 95%;
+    background-color: #1A7FBD;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    padding: 0.4em;
+}
+
+#btn p{
+    text-align: center;
+    color: #bbb;
+}
+
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+#section2 img{
+    width: 42% ;
+}
+
+#section2 div{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 1em;
+}
+
+#section2 div h2{
+    color: #A4DCFF;
+    font-size: 2em;
+}
+
+#section2 div p{
+    font-weight: 100;
+    color: #fff;
+}
+
+#section2 div strong {
+    color: white;
+    font-weight: 300;
+}
+
+#section3{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+#section3 h2 {
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #A4DCFF 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2em;
+}
+
+#oProblema{
+    justify-content: center;
+    gap: 5em;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#oProblema div{
+    margin-top: 6em;
+    display: flex;
+    height: max-content;
+    gap: 1em;
+    width: 35%;
+    flex-direction: column;
+}
+
+#section3 img{
+    width: 40%;
+}
+
+#containerBox {
+    margin-top: -10em;
+    display: flex;
+    gap: 1em;
+    justify-content: center ;
+}
+
+.box3{
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.348);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1em;
+    height: 12em;
+    width: 20%;
+}
+
+.box3 p{
+    font-size: 0.8em;
+}
+.box3 h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#section4{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section4 h2{
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #A4DCFF 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#containerBox2{
+    display: flex;
+   gap: 1em;
+}
+
+.box6{
+    display: flex;
+    background-color: #1A7FBD;
+    padding: 1em;
+    border-radius: 10px;
+    align-items: center;
+    gap: 1em;
+}
+
+.box6 p{
+    color: #fff;
+}
+
+.box6 div{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+}
+
+.box6 img {
+    width: 3em;
+    background-color: #fff;
+}
+
+
+
+
