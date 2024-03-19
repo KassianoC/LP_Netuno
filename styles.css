@@ -40,8 +40,12 @@ header nav ul a:hover {
    transition: 300ms;
 }
 
-header nav ul {
+ul{
     list-style: none;
+}
+
+header nav ul {
+    
     display: flex;
     flex-direction: row;
     gap: 2em;

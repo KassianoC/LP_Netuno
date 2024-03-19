@@ -34,13 +34,11 @@
     }
 
     #section1 form {
-
         margin: 1em auto;
         width: 95%;
-
     }
 
-    nav {
+   header nav {
         position: fixed;
         top: 0;
         left: -100%;
@@ -94,10 +92,11 @@
     }
 
     footer nav ul {
+        color: white;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        border-right: none;
+        display: flex;
     }
 
     footer nav {
