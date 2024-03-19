@@ -249,8 +249,12 @@ fieldset{
     width: 40%;
 }
 
-#containerBox {
+#containerBox{
     margin-top: -10em;
+}
+
+#containerBox,
+#containerBox3 {
     display: flex;
     gap: 1em;
     justify-content: center ;
@@ -298,20 +302,27 @@ fieldset{
 
 #containerBox2{
     display: flex;
-   gap: 1em;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3em;
 }
 
 .box6{
     display: flex;
     background-color: #1A7FBD;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 10px;
     align-items: center;
-    gap: 1em;
+    gap: 0.5em;
+    width: 23% ;
 }
 
 .box6 p{
     color: #fff;
+    font-size: 0.9em;
+    display: flex;
+    text-align: center;
 }
 
 .box6 div{
@@ -322,9 +333,116 @@ fieldset{
 }
 
 .box6 img {
-    width: 3em;
+    width: 2.5em;
     background-color: #fff;
 }
+
+#divBtn{
+    display: flex;
+    margin-top: 5em;
+    border-radius: 10px;
+    padding: 0.6em;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+#divBtn p{
+    gap: 1em;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+
+#divBtn a{
+    color: #1A7FBD;
+}
+
+#section5{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+#section5 h2{
+    text-align: center;
+    padding: 2.5em ;
+    font-size: 2em;
+    color:  #fff;
+}
+
+#containerBox3{
+    gap: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background-color: black;
+    padding: 6em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#redes img{
+    width: 1em;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+#processoSeletivoFoot{
+    background-color: #fff;
+    height: max-content;
+    padding: 0.5em;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#processoSeletivoFoot:hover {
+    border: solid 1px #fff;
+    background-color: black;
+    height: max-content;
+    padding: 0.5em;
+    color: #fff;
+   
+}
+
+footer nav {
+    border-right: solid 1px #fff;
+    padding-right: 3em;
+}
+
+footer nav ul a{
+    color: #fff;
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+
+footer nav ul a:hover {
+    background-color: white;
+    color: black;
+    padding: 0.2em;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+
+
+
+
+
 
 
 
