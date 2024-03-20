@@ -10,7 +10,6 @@ body {
     margin: 0 auto;
 }
 
-
 a {
     text-decoration: none;
     display: flex;
@@ -24,10 +23,9 @@ input, select{
 
 header{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10em;
-    padding: 1em;
+    justify-content: space-around;
+    padding: 1.5em 10em;
 }
 
 
@@ -76,8 +74,15 @@ fieldset{
     transition: 300ms;
 }
 
+#horizontalLine {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 26.56%, rgba(255, 255, 255, 1) 63.54%, rgba(255, 255, 255, 0) 100%);
+}
+
 #section1{
     display: flex;
+    margin-top: em;
 }
 
 #section1 img{
@@ -91,8 +96,10 @@ fieldset{
     display: flex;
     flex-direction: column;
     gap: 1.2em;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
+    border: solid 1px #1A7FBD;
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.348);
 }
 
 #section1 form fieldset p{
@@ -208,10 +215,11 @@ fieldset{
     align-items: center;
     justify-content: center;
     gap: 5em;
+    padding-bottom: 5em;
 }
 
 #section2 img{
-    width: 42% ;
+    width: 40% ;
 }
 
 #section2 div{
@@ -227,29 +235,23 @@ fieldset{
 }
 
 #section2 div p{
-    font-weight: 100;
     color: #fff;
+    font-weight: 300;
 }
 
 #section2 div strong {
     color: white;
-    font-weight: 300;
 }
 
 #section3{
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-bottom: 5em;
 }
 
-#section3 h2 {
-    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #A4DCFF 100.21%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-size: 2em;
+#section3 img {
+    width: 40%;
 }
 
 #oProblema{
@@ -257,7 +259,14 @@ fieldset{
     gap: 5em;
     display: flex;
     flex-direction: row;
-   
+}
+
+#oProblema h2 {
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #A4DCFF 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2em;
 }
 
 #oProblema div{
@@ -265,13 +274,14 @@ fieldset{
     display: flex;
     height: max-content;
     gap: 1em;
-    width: 35%;
+    width: 32%;
     flex-direction: column;
 }
 
-#section3 img{
-    width: 40%;
+#oProblema strong{
+    font-size: 1.2em;
 }
+
 
 #containerBox{
     margin-top: -10em;
@@ -280,12 +290,12 @@ fieldset{
 #containerBox,
 #containerBox3 {
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
     justify-content: center ;
 }
 
 .box3{
-    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.348);
+    box-shadow: 0.5em 1em 2em rgba(0, 0, 0, 0.348);
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -293,16 +303,14 @@ fieldset{
     justify-content: center;
     border-radius: 5px;
     padding: 1em;
-    height: 12em;
-    width: 20%;
+    height: 13em;
+    width: 22%;
 }
 
-.box3 p{
-    font-size: 0.8em;
-}
 .box3 h3 {
     font-size: 1.5em;
     margin-bottom: 1em;
+    font-weight: 800;
 }
 
 #section4{
@@ -335,29 +343,32 @@ fieldset{
 .box6{
     display: flex;
     background-color: #1A7FBD;
+    box-shadow: 0.5em 1em 2em rgba(0, 0, 0, 0.348);
     padding: 0.5em;
     border-radius: 10px;
     align-items: center;
     gap: 0.5em;
     width: 23% ;
+    border: solid 1px #fff;
 }
 
 .box6 p{
     color: #fff;
     font-size: 0.9em;
-    display: flex;
-    text-align: center;
+    padding: 0 1.5em;
 }
 
 .box6 div{
     background-color: #fff;
     border-radius: 10px;
-    padding: 0.5em;
+    padding: 0.3em;
     display: flex;
 }
 
 .box6 img {
-    width: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.5em;
     background-color: #fff;
 }
 
